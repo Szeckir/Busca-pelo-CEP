@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.cep-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px;
+    text-align: center;
+}
+
+.buscagem-cep {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buscagem-cep input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.buscagem-cep button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buscagem-cep button:hover {
+    background-color: #0056b3;
+}
+
+.cep-response-container {
+    margin-top: 20px;
+}
+
+.data-cep ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.data-cep li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
